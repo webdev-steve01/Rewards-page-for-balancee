@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is just the layout of the reward section, how I imagined it should look like. I adopted a mobile first approach in order to ensure responsiveness. I decided to focus more on the reward section itself other than the nav bars and side bar because those are already available on the balancee platform but I added a side bar in large screens to show exactly how the page would look like. My choice of color was based on the color scheme on the Balancee platform. I utilized next.js instead of normal react to use it's convenient routing feature.
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tool utilized in the project
+Next.js
+Typescript
+Tailwind Css
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## The Card Feature
+I got the idea for a feature that looks like a card from one of my wallet applications, I find the UI very pleasing to look at (even though there's nothing in it though😪) The Large text is the total amount available for withdrawal and the small text is the total cashback the user has earned, I created a JSON file with dummy data because I could not find an API that provides a fake transactions history.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Future development
+I intend to continually develop this project, I will add a feature that allows users to click on a transaction history and see the full details including description and have the option to file for a complaint in case of any transaction error but a debit was made. I will also add a booking and a settings page so they don't just s fill space but for now this project was made strictly for this role.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Design
+I decided to design based on the wallet app i have on my phone but also kept some originalities, I first drew how i want it to look like on paper before coding and as such I do not have a figma file, you will find that I only used the other apps as inspiration but this design is original as far as I'm concerned. I have experience working with figma files from front end websites like frontendmentor.io. 
