@@ -10,6 +10,7 @@ import wallet from "../public/wallet-money-svgrepo-com.svg";
 import Image from "next/image";
 import Link from "next/link";
 import Icons from "./Icons";
+import close from '../public/eye-off-svgrepo-com.svg'
 import IconsList from "./IconsList";
 
 function DisplayCard() {
@@ -48,7 +49,8 @@ function DisplayCard() {
     }
   }
 
-  const square = 25;
+
+
 
   return (
     <section className="card grid gap-2 px-4 py-2">
@@ -62,11 +64,12 @@ function DisplayCard() {
           </section>
           <Image
             className="image"
-            src={eyeOpen}
+            src={openEye? eyeOpen: close}
             alt=""
             width={20}
             height={20}
             onClick={handleClick}
+            id="eye"
           />
         </section>
         <section className="balance px-3 py-3 ">
